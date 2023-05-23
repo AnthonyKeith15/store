@@ -1,0 +1,23 @@
+.products-container {
+  margin: 1.5rem;
+}
+
+.products-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+}
+
+.product-item {
+  padding: 1.5rem;
+}
+
+.product-item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+
