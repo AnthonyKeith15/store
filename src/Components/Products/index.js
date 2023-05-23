@@ -12,12 +12,12 @@ const componentMap = {
     buttonText: 'Food',
   },
   product2: {
-    component: <Sports />,
-    buttonText: 'Sports',
-  },
-  product3: {
     component: <Electronics />,
     buttonText: 'Electronics',
+  },
+  product3: {
+    component: <Sports />,
+    buttonText: 'Sports',
   },
 };
 
