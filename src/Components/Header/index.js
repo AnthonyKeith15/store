@@ -1,5 +1,6 @@
 import React from 'react';
 import HoverButton from '../Utils/HoverButton';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 import './Header.css'
 
@@ -12,7 +13,9 @@ function Header() {
             <HoverButton variant="outlined">Our Store</HoverButton>
           </li>
           <li>
-            <HoverButton variant="outlined">Cart (0)</HoverButton>
+            <HoverButton variant="outlined">
+              <ShoppingCartOutlinedIcon />
+            </HoverButton>
           </li>
         </ul>
       </nav>
